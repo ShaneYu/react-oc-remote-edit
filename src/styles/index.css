@@ -1,0 +1,25 @@
+@tailwind base;
+
+h1 {
+  @apply text-2xl;
+}
+
+.btn {
+  @apply font-bold py-2 px-4 rounded;
+}
+
+.btn-blue {
+  @apply bg-blue-500 text-white;
+}
+
+.btn-blue:hover {
+  @apply bg-blue-700;
+}
+
+.react-monaco-editor-container {
+  @apply absolute;
+  @apply inset-0;
+}
+
+@tailwind components;
+@tailwind utilities;

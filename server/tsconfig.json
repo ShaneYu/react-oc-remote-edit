@@ -1,0 +1,19 @@
+{
+  "ts-node": {
+    "transpileOnly": true,
+    "respawn": true
+  },
+  "compilerOptions": {
+    "allowJs": true,
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "target": "es6",
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "noUnusedLocals": false,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "typeRoots": ["./node_modules/@types", "./typings"]
+  },
+  "include": ["server.ts"]
+}
