@@ -76,7 +76,7 @@ function App() {
             </button>
           )}
         </div>
-        <div className="flex-1 bg-gray-400 relative">
+        <div className="flex-1 overflow-hidden bg-gray-400 relative">
           <MonacoEditor
             height=""
             width=""
